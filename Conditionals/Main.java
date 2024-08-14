@@ -38,5 +38,31 @@ public class Main {
         else{
             System.out.println("false");
         }
+        switch(num){
+            case 0:
+            System.out.println("Number is 0");
+            break;
+            case 1:
+            System.out.println("Number is 1");
+            break;
+            case 2:
+            System.out.println("Number is 2");
+            break;
+            default:
+            System.out.println("Number is not 0,1 or 2");
+        }
+        switch(num2){
+            case 0:
+            System.out.println("Number is 0");
+            break;
+            case 1:
+            System.out.println("Number is 1");
+            break;
+            case 2:
+            System.out.println("Number is 2");
+            break;
+            default:
+            System.out.println("Number is not 0,1 or 2");
+        }
     }
 }
