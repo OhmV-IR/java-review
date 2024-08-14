@@ -3,7 +3,13 @@ public class Main {
        String[] users = {"Ohm", "Idra", "Justin", "Lagcatalyst"};
        // int i = 0 runs the first time through the loop, i < 4 is the condition to keep running the loop and i++ gets run every time the loop runs
        for(int i = 0; i < 4; i++){
+        if(i == 1){
+            continue; // Skip the 2nd iteration
+        }
         System.out.println(i);
+        if(i == 2){
+            break; // Exit the loop at the 3rd iteration
+        }
        }
        System.out.println("Authorized users:");
        for(int i = 0; i < users.length; i++){
@@ -18,5 +24,6 @@ public class Main {
         System.out.println("Do loop ran");
        }
        while(false); // Will continue to run infinitely so long as the condition is true
+       
     }
 }
