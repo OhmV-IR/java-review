@@ -11,5 +11,6 @@ public class Main{
         float pi = 3.14f;
         int diamater = 6;
         System.out.println("The circumference of a circle where the diamater is " + diamater + " is " + pi*diamater);
+        String[] users = {"oooohm", "idra", "justin"};
     }
 }

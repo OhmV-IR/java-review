@@ -38,10 +38,11 @@ public class Main {
         else{
             System.out.println("false");
         }
-        switch(num){
+        switch(num){ // condition
+            // If num == 0
             case 0:
             System.out.println("Number is 0");
-            break;
+            break; // stop checking further cases after a match for performance reasons
             case 1:
             System.out.println("Number is 1");
             break;
