@@ -6,7 +6,7 @@ import javax.annotation.Nonnull; //this package helps to find null pointer refer
 import java.util.Locale;
 
 public class ChatUtils {
-    public static @Nonnull String humanize(@Nonnull String string) { // Things tagged with the nonnull tag will be checked for potentially null pointers by IDE
+    public static @Nonnull String humanize(@Nonnull String string) { // Things tagged with the @Nonnull tag will be checked for potentially null pointers by IDE
         StringBuilder builder = new StringBuilder(); // Create a new instance of the string builder class
         String[] segments = CommonPatterns.UNDERSCORE.split(string.toLowerCase(Locale.ROOT)); // Turn all letters of the string to lowercase and split the string at every underscore, excluding the underscore itself
 
